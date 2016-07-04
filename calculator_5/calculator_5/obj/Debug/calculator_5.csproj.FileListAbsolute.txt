@@ -1,0 +1,9 @@
+C:\Users\Admin\Documents\GitHub\ИВТ-152\calculator_5\calculator_5\calculator_5\bin\Debug\calculator_5.exe.config
+C:\Users\Admin\Documents\GitHub\ИВТ-152\calculator_5\calculator_5\calculator_5\bin\Debug\calculator_5.exe
+C:\Users\Admin\Documents\GitHub\ИВТ-152\calculator_5\calculator_5\calculator_5\bin\Debug\calculator_5.pdb
+C:\Users\Admin\Documents\GitHub\ИВТ-152\calculator_5\calculator_5\calculator_5\obj\Debug\calculator_5.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\ИВТ-152\calculator_5\calculator_5\calculator_5\obj\Debug\calculator_5.Form1.resources
+C:\Users\Admin\Documents\GitHub\ИВТ-152\calculator_5\calculator_5\calculator_5\obj\Debug\calculator_5.Properties.Resources.resources
+C:\Users\Admin\Documents\GitHub\ИВТ-152\calculator_5\calculator_5\calculator_5\obj\Debug\calculator_5.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\GitHub\ИВТ-152\calculator_5\calculator_5\calculator_5\obj\Debug\calculator_5.exe
+C:\Users\Admin\Documents\GitHub\ИВТ-152\calculator_5\calculator_5\calculator_5\obj\Debug\calculator_5.pdb
