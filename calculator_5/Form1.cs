@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using calculator_5.OneArgument;
+using calculator_5.TwoArgument;
 using Microsoft.Win32;
 
 namespace calculator_5
@@ -23,9 +25,18 @@ namespace calculator_5
 
             double firstValue = double.Parse(textBox1.Text);
             double secondValue = double.Parse(textBox2.Text);
-            double result ;
             ITwoArgumentCalculator calculator = TwoArgumentFactory.CreateCalculator(((Button) sender).Name);
-            result = calculator.Calculate(firstValue, secondValue);
+            double result = calculator.Calculate(firstValue, secondValue);
+            
+            textBox3.Text = result.ToString();
+        }
+
+        private void one_button_Click(object sender, EventArgs e)
+        {
+
+            double firstValue = double.Parse(textBox1.Text);
+            IOneArgumentCalculator calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
+            double result = calculator.Calculate(firstValue);
             textBox3.Text = result.ToString();
         }
         
