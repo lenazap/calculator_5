@@ -18,49 +18,9 @@ namespace calculator_5
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            double firstValue = double.Parse(textBox1.Text);
-            double secondValue = double.Parse(textBox2.Text);
-            double result = firstValue+secondValue;
-            textBox3.Text = result.ToString();
-        }
-
-       
-        private void button2_Click(object sender, EventArgs e)
-        {
-            double firstValue = double.Parse(textBox1.Text);
-            double secondValue = double.Parse(textBox2.Text);
-            double result = firstValue * secondValue;
-            textBox3.Text = result.ToString();
-        }
-
-       private void button4_Click(object sender, EventArgs e)
-        {
-            double firstValue = double.Parse(textBox1.Text);
-            double secondValue = double.Parse(textBox2.Text);
-            double result = firstValue - secondValue;
-            textBox3.Text = result.ToString();
-        }
-
       
 
-        private void button3_Click_1(object sender, EventArgs e)
-        {
-            double firstValue = double.Parse(textBox1.Text);
-            double secondValue = double.Parse(textBox2.Text);
-            double result = firstValue / secondValue;
-            textBox3.Text = result.ToString();
-        }
-
-        private void button_substraction_Click(object sender, EventArgs e)
-        {
-            double firstValue = double.Parse(textBox1.Text);
-            double secondValue = double.Parse(textBox2.Text);
-            double result = firstValue - secondValue;
-            textBox3.Text = result.ToString();
-        }
-
+      
         private void button_Click(object sender, EventArgs e)
         {
             double firstValue = double.Parse(textBox1.Text);
