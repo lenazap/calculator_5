@@ -18,31 +18,14 @@ namespace calculator_5
             InitializeComponent();
         }
 
-      
-
-      
         private void button_Click(object sender, EventArgs e)
         {
+
             double firstValue = double.Parse(textBox1.Text);
             double secondValue = double.Parse(textBox2.Text);
             double result ;
-            switch (((Button)sender).Name)
-            {
-                case "button_plus":
-                    result = firstValue + secondValue;
-                    break;
-                case "button_division":
-                    result = firstValue - secondValue;
-                    break;
-                case "button_multiplication":
-                    result = firstValue*secondValue;
-                    break;
-                case "button_substraction":
-                    result = firstValue/secondValue;
-                    break;
-                default:
-                    throw new Exception("Неизвестная операция");
-            }
+            ITwoArgumentCalculator calculator = TwoArgumentFactory.CreateCalculator(((Button) sender).Name);
+            result = calculator.Calculate(firstValue, secondValue);
             textBox3.Text = result.ToString();
         }
         
