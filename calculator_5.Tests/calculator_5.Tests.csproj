@@ -43,11 +43,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgument\AbsTests.cs" />
+    <Compile Include="OneArgument\ArccosTest.cs" />
+    <Compile Include="OneArgument\ArcsinTest.cs" />
+    <Compile Include="OneArgument\CosTest.cs" />
+    <Compile Include="OneArgument\ExpTest.cs" />
+    <Compile Include="OneArgument\InversionTest.cs" />
+    <Compile Include="OneArgument\LnTest.cs" />
+    <Compile Include="OneArgument\OneArgumentFactoryTest.cs" />
+    <Compile Include="OneArgument\PercentTest.cs" />
+    <Compile Include="OneArgument\SinTest.cs" />
+    <Compile Include="OneArgument\SqrTest.cs" />
+    <Compile Include="OneArgument\SqrtTest.cs" />
+    <Compile Include="OneArgument\TgTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TwoArgument\AddictionalCalculateTests.cs" />
     <Compile Include="TwoArgument\DivisionTest.cs" />
     <Compile Include="TwoArgument\MultiTest.cs" />
     <Compile Include="TwoArgument\SubTest.cs" />
+    <Compile Include="TwoArgument\TwoArgumentFactoryTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -58,9 +72,7 @@
       <Name>calculator_5</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="OneArgument\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
