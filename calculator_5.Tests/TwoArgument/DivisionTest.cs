@@ -8,6 +8,9 @@ namespace calculator_5.Tests.TwoArgument
     public class DivisionTests
     {
         [TestCase(45, 9, 5)]
+        [TestCase(150, 5, 30)]
+        [TestCase(42, 7, 6)]
+
         public void SimpleTest2(double first, double second, double expected)
         {
             ITwoArgumentCalculator calculator = new Division();
