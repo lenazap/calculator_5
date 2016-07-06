@@ -44,6 +44,7 @@
             this.button_x2 = new System.Windows.Forms.Button();
             this.button_log = new System.Windows.Forms.Button();
             this.button_tg = new System.Windows.Forms.Button();
+            this.button_inv = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button_plus
@@ -195,12 +196,23 @@
             this.button_tg.UseVisualStyleBackColor = true;
             this.button_tg.Click += new System.EventHandler(this.one_button_Click);
             // 
+            // button_inv
+            // 
+            this.button_inv.Location = new System.Drawing.Point(143, 210);
+            this.button_inv.Name = "button_inv";
+            this.button_inv.Size = new System.Drawing.Size(30, 35);
+            this.button_inv.TabIndex = 20;
+            this.button_inv.Text = "-x";
+            this.button_inv.UseVisualStyleBackColor = true;
+            this.button_inv.Click += new System.EventHandler(this.one_button_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(322, 262);
+            this.Controls.Add(this.button_inv);
             this.Controls.Add(this.button_tg);
             this.Controls.Add(this.button_log);
             this.Controls.Add(this.button_x2);
@@ -242,6 +254,7 @@
         private System.Windows.Forms.Button button_x2;
         private System.Windows.Forms.Button button_log;
         private System.Windows.Forms.Button button_tg;
+        private System.Windows.Forms.Button button_inv;
     }
 }
 

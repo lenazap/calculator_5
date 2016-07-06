@@ -22,6 +22,8 @@ namespace calculator_5.OneArgument
                     return new Sqr();
                 case "button_tg":
                     return new Tangens();
+                case "button_inv":
+                    return new Inversion();
                  default:
                     throw new Exception("Неизвестная операция");
             }

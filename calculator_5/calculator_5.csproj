@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="OneArgument\Cosinus.cs" />
     <Compile Include="OneArgument\Exponent.cs" />
+    <Compile Include="OneArgument\Inversion.cs" />
     <Compile Include="OneArgument\Logarifm.cs" />
     <Compile Include="OneArgument\Sqr.cs" />
     <Compile Include="OneArgument\Tangens.cs" />
