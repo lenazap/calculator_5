@@ -39,7 +39,11 @@
             this.button_sin = new System.Windows.Forms.Button();
             this.button_cos = new System.Windows.Forms.Button();
             this.button_sqrt = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.button_exp = new System.Windows.Forms.Button();
+            this.button_lg = new System.Windows.Forms.Button();
+            this.button_x2 = new System.Windows.Forms.Button();
+            this.button_log = new System.Windows.Forms.Button();
+            this.button_tg = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button_plus
@@ -141,21 +145,67 @@
             this.button_sqrt.UseVisualStyleBackColor = true;
             this.button_sqrt.Click += new System.EventHandler(this.one_button_Click);
             // 
-            // button1
+            // button_exp
             // 
-            this.button1.Location = new System.Drawing.Point(179, 169);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(40, 35);
-            this.button1.TabIndex = 15;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button_exp.Location = new System.Drawing.Point(179, 169);
+            this.button_exp.Name = "button_exp";
+            this.button_exp.Size = new System.Drawing.Size(40, 35);
+            this.button_exp.TabIndex = 15;
+            this.button_exp.Text = "exp";
+            this.button_exp.UseVisualStyleBackColor = true;
+            this.button_exp.Click += new System.EventHandler(this.one_button_Click);
+            // 
+            // button_lg
+            // 
+            this.button_lg.Location = new System.Drawing.Point(225, 46);
+            this.button_lg.Name = "button_lg";
+            this.button_lg.Size = new System.Drawing.Size(40, 35);
+            this.button_lg.TabIndex = 16;
+            this.button_lg.Text = "lg";
+            this.button_lg.UseVisualStyleBackColor = true;
+            this.button_lg.Click += new System.EventHandler(this.one_button_Click);
+            // 
+            // button_x2
+            // 
+            this.button_x2.Location = new System.Drawing.Point(225, 87);
+            this.button_x2.Name = "button_x2";
+            this.button_x2.Size = new System.Drawing.Size(40, 35);
+            this.button_x2.TabIndex = 17;
+            this.button_x2.Text = "x^2";
+            this.button_x2.UseVisualStyleBackColor = true;
+            this.button_x2.Click += new System.EventHandler(this.one_button_Click);
+            // 
+            // button_log
+            // 
+            this.button_log.Location = new System.Drawing.Point(225, 128);
+            this.button_log.Name = "button_log";
+            this.button_log.Size = new System.Drawing.Size(40, 35);
+            this.button_log.TabIndex = 18;
+            this.button_log.Text = "log";
+            this.button_log.UseVisualStyleBackColor = true;
+            this.button_log.Click += new System.EventHandler(this.one_button_Click);
+            // 
+            // button_tg
+            // 
+            this.button_tg.Location = new System.Drawing.Point(225, 169);
+            this.button_tg.Name = "button_tg";
+            this.button_tg.Size = new System.Drawing.Size(40, 35);
+            this.button_tg.TabIndex = 19;
+            this.button_tg.Text = "tg";
+            this.button_tg.UseVisualStyleBackColor = true;
+            this.button_tg.Click += new System.EventHandler(this.one_button_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(322, 262);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.button_tg);
+            this.Controls.Add(this.button_log);
+            this.Controls.Add(this.button_x2);
+            this.Controls.Add(this.button_lg);
+            this.Controls.Add(this.button_exp);
             this.Controls.Add(this.button_sqrt);
             this.Controls.Add(this.button_cos);
             this.Controls.Add(this.button_sin);
@@ -187,7 +237,11 @@
         private System.Windows.Forms.Button button_sin;
         private System.Windows.Forms.Button button_cos;
         private System.Windows.Forms.Button button_sqrt;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button_exp;
+        private System.Windows.Forms.Button button_lg;
+        private System.Windows.Forms.Button button_x2;
+        private System.Windows.Forms.Button button_log;
+        private System.Windows.Forms.Button button_tg;
     }
 }
 

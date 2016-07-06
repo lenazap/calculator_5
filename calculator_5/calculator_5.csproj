@@ -45,6 +45,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="OneArgument\Cosinus.cs" />
+    <Compile Include="OneArgument\Exponent.cs" />
+    <Compile Include="OneArgument\Logarifm.cs" />
+    <Compile Include="OneArgument\Sqr.cs" />
+    <Compile Include="OneArgument\Tangens.cs" />
     <Compile Include="TwoArgument\Division.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -54,6 +58,7 @@
     </Compile>
     <Compile Include="OneArgument\IOneArgumentCalculator.cs" />
     <Compile Include="TwoArgument\ITwoArgumentCalculator.cs" />
+    <Compile Include="TwoArgument\Logarifm2.cs" />
     <Compile Include="TwoArgument\Multiplication.cs" />
     <Compile Include="OneArgument\OneArgumentFactory.cs" />
     <Compile Include="TwoArgument\Plus.cs" />
