@@ -45,6 +45,12 @@
             this.button_log = new System.Windows.Forms.Button();
             this.button_tg = new System.Windows.Forms.Button();
             this.button_inv = new System.Windows.Forms.Button();
+            this.button_pow = new System.Windows.Forms.Button();
+            this.button_arcsin = new System.Windows.Forms.Button();
+            this.button_abs = new System.Windows.Forms.Button();
+            this.button_ln = new System.Windows.Forms.Button();
+            this.button_percent = new System.Windows.Forms.Button();
+            this.button_arccos = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button_plus
@@ -138,7 +144,7 @@
             // 
             // button_sqrt
             // 
-            this.button_sqrt.Location = new System.Drawing.Point(179, 128);
+            this.button_sqrt.Location = new System.Drawing.Point(225, 169);
             this.button_sqrt.Name = "button_sqrt";
             this.button_sqrt.Size = new System.Drawing.Size(40, 35);
             this.button_sqrt.TabIndex = 14;
@@ -184,11 +190,11 @@
             this.button_log.TabIndex = 18;
             this.button_log.Text = "log";
             this.button_log.UseVisualStyleBackColor = true;
-            this.button_log.Click += new System.EventHandler(this.one_button_Click);
+            this.button_log.Click += new System.EventHandler(this.button_Click);
             // 
             // button_tg
             // 
-            this.button_tg.Location = new System.Drawing.Point(225, 169);
+            this.button_tg.Location = new System.Drawing.Point(179, 128);
             this.button_tg.Name = "button_tg";
             this.button_tg.Size = new System.Drawing.Size(40, 35);
             this.button_tg.TabIndex = 19;
@@ -206,12 +212,78 @@
             this.button_inv.UseVisualStyleBackColor = true;
             this.button_inv.Click += new System.EventHandler(this.one_button_Click);
             // 
+            // button_pow
+            // 
+            this.button_pow.Location = new System.Drawing.Point(179, 210);
+            this.button_pow.Name = "button_pow";
+            this.button_pow.Size = new System.Drawing.Size(40, 35);
+            this.button_pow.TabIndex = 21;
+            this.button_pow.Text = "x^y";
+            this.button_pow.UseVisualStyleBackColor = true;
+            this.button_pow.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button_arcsin
+            // 
+            this.button_arcsin.Location = new System.Drawing.Point(271, 46);
+            this.button_arcsin.Name = "button_arcsin";
+            this.button_arcsin.Size = new System.Drawing.Size(50, 35);
+            this.button_arcsin.TabIndex = 22;
+            this.button_arcsin.Text = "arcsin";
+            this.button_arcsin.UseVisualStyleBackColor = true;
+            this.button_arcsin.Click += new System.EventHandler(this.one_button_Click);
+            // 
+            // button_abs
+            // 
+            this.button_abs.Location = new System.Drawing.Point(225, 210);
+            this.button_abs.Name = "button_abs";
+            this.button_abs.Size = new System.Drawing.Size(40, 35);
+            this.button_abs.TabIndex = 23;
+            this.button_abs.Text = "abs";
+            this.button_abs.UseVisualStyleBackColor = true;
+            this.button_abs.Click += new System.EventHandler(this.one_button_Click);
+            // 
+            // button_ln
+            // 
+            this.button_ln.Location = new System.Drawing.Point(271, 128);
+            this.button_ln.Name = "button_ln";
+            this.button_ln.Size = new System.Drawing.Size(50, 35);
+            this.button_ln.TabIndex = 24;
+            this.button_ln.Text = "ln";
+            this.button_ln.UseVisualStyleBackColor = true;
+            this.button_ln.Click += new System.EventHandler(this.one_button_Click);
+            // 
+            // button_percent
+            // 
+            this.button_percent.Location = new System.Drawing.Point(271, 169);
+            this.button_percent.Name = "button_percent";
+            this.button_percent.Size = new System.Drawing.Size(50, 35);
+            this.button_percent.TabIndex = 25;
+            this.button_percent.Text = "%";
+            this.button_percent.UseVisualStyleBackColor = true;
+            this.button_percent.Click += new System.EventHandler(this.one_button_Click);
+            // 
+            // button_arccos
+            // 
+            this.button_arccos.Location = new System.Drawing.Point(271, 88);
+            this.button_arccos.Name = "button_arccos";
+            this.button_arccos.Size = new System.Drawing.Size(50, 32);
+            this.button_arccos.TabIndex = 26;
+            this.button_arccos.Text = "arccos";
+            this.button_arccos.UseVisualStyleBackColor = true;
+            this.button_arccos.Click += new System.EventHandler(this.one_button_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(322, 262);
+            this.ClientSize = new System.Drawing.Size(380, 282);
+            this.Controls.Add(this.button_arccos);
+            this.Controls.Add(this.button_percent);
+            this.Controls.Add(this.button_ln);
+            this.Controls.Add(this.button_abs);
+            this.Controls.Add(this.button_arcsin);
+            this.Controls.Add(this.button_pow);
             this.Controls.Add(this.button_inv);
             this.Controls.Add(this.button_tg);
             this.Controls.Add(this.button_log);
@@ -255,6 +327,12 @@
         private System.Windows.Forms.Button button_log;
         private System.Windows.Forms.Button button_tg;
         private System.Windows.Forms.Button button_inv;
+        private System.Windows.Forms.Button button_pow;
+        private System.Windows.Forms.Button button_arcsin;
+        private System.Windows.Forms.Button button_abs;
+        private System.Windows.Forms.Button button_ln;
+        private System.Windows.Forms.Button button_percent;
+        private System.Windows.Forms.Button button_arccos;
     }
 }
 

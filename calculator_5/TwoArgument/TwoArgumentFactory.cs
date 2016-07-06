@@ -18,6 +18,9 @@ namespace calculator_5.TwoArgument
                     return new Substraction();
                 case "button_log":
                     return new Logarifm2();
+                case "button_pow":
+                    return new Pow();
+                   
                 default:
                     throw new Exception("Неизвестная операция");
             }

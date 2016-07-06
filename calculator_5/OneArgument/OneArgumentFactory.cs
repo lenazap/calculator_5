@@ -24,6 +24,16 @@ namespace calculator_5.OneArgument
                     return new Tangens();
                 case "button_inv":
                     return new Inversion();
+                case "button_abs":
+                    return new Abs();
+                case "button_arcsin":
+                    return new Arcsin();
+                case "button_arccos":
+                    return new Arccos();
+                case "button_ln":
+                    return new Ln();
+                case "button_percent":
+                    return new Percent();
                  default:
                     throw new Exception("Неизвестная операция");
             }
