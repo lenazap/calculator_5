@@ -14,22 +14,35 @@ namespace calculator_5
 
         private void button_Click(object sender, EventArgs e)
         {
+            try
+            {
+                double firstValue = double.Parse(textBox1.Text);
+                double secondValue = double.Parse(textBox2.Text);
+                ITwoArgumentCalculator calculator = TwoArgumentFactory.CreateCalculator(((Button)sender).Name);
+                double result = calculator.Calculate(firstValue, secondValue);
 
-            double firstValue = double.Parse(textBox1.Text);
-            double secondValue = double.Parse(textBox2.Text);
-            ITwoArgumentCalculator calculator = TwoArgumentFactory.CreateCalculator(((Button) sender).Name);
-            double result = calculator.Calculate(firstValue, secondValue);
-            
-            textBox3.Text = result.ToString();
+                textBox3.Text = result.ToString();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ошибка " + ex.Message);
+            }
         }
 
         private void one_button_Click(object sender, EventArgs e)
         {
-            double firstValue = double.Parse(textBox1.Text);
-            IOneArgumentCalculator calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
-            double result = calculator.Calculate(firstValue);
-            textBox3.Text = result.ToString();
+            try
+            {
+                double firstValue = double.Parse(textBox1.Text);
+                IOneArgumentCalculator calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
+                double result = calculator.Calculate(firstValue);
+                textBox3.Text = result.ToString();
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ошибка " + ex.Message);
+            }
         }
-        
     }
 }
