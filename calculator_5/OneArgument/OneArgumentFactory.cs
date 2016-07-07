@@ -4,6 +4,11 @@ namespace calculator_5.OneArgument
 {
     public static class OneArgumentFactory
     {
+        /// <summary>
+        /// This is factory for working with calculator of one argument
+        /// </summary>
+        /// <param name="calculatorName"></param>
+        /// <returns></returns>
         public static IOneArgumentCalculator CreateCalculator(string calculatorName)
         {
             switch(calculatorName)

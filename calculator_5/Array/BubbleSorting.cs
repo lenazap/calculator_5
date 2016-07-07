@@ -1,5 +1,8 @@
 ﻿namespace calculator_5.Array
 {
+    /// <summary>
+    /// This is bubble sorting of arrays
+    /// </summary>
     public class BubbleSorting: IArraySorting
     {
         public int[] Sorting(int[] array)

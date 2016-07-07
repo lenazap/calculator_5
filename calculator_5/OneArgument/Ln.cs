@@ -4,6 +4,11 @@ namespace calculator_5.OneArgument
 {
     public class Ln: IOneArgumentCalculator
     {
+        /// <summary>
+        /// This is natural logarifm
+        /// </summary>
+        /// <param name="firstArgument"></param>
+        /// <returns></returns>
         public double Calculate(double firstArgument)
         {
             if (firstArgument <= 0)
