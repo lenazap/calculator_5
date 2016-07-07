@@ -4,7 +4,7 @@
     {
         public double Calculate(double firstArgument)
         {
-            return (-1)*firstArgument;
+            return -firstArgument;
         }
     }
 }

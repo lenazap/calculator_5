@@ -1,6 +1,4 @@
-﻿
-
-using System;
+﻿using System;
 using calculator_5.OneArgument;
 
 using NUnit.Framework;

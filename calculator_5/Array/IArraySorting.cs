@@ -1,6 +1,4 @@
-﻿using System.Security.Cryptography.X509Certificates;
-
-namespace calculator_5.Array
+﻿namespace calculator_5.Array
 {
     public interface IArraySorting
     {

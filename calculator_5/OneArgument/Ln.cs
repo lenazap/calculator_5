@@ -8,7 +8,7 @@ namespace calculator_5.OneArgument
         {
             if (firstArgument <= 0)
             {
-                throw new Exception("\n Неправильное значение аргумента");
+                throw new Exception("Неправильное значение аргумента");
             }
             return Math.Log(firstArgument, 2.7);
         }

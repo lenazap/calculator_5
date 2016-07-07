@@ -1,12 +1,9 @@
-﻿
-
-    using System;
+﻿    using System;
     using calculator_5.TwoArgument;
     using NUnit.Framework;
     namespace calculator_5.Tests.TwoArgument
     {
         [TestFixture]
-
         public class TwoArgumentFactoryTest
         {
             [TestCase("button_plus",typeof(Plus))]

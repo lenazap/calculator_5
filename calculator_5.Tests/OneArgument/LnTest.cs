@@ -9,23 +9,18 @@ namespace calculator_5.Tests.OneArgument
     {
         [TestCase(4, 1.395)]
         [TestCase(8, 2.093)]
-
         public void SimpleTest(double first, double expected)
         {
             IOneArgumentCalculator calculator = new Ln();
             double result = calculator.Calculate(first);
             Assert.AreEqual(expected, result, 0.001);
-
         }
-        [Test]
 
+        [Test]
         public void LnWithZero(double first, double expected)
         {
             IOneArgumentCalculator calculator = new Ln();
             Assert.Throws<Exception>(() => calculator.Calculate(-1));
-
         }
     }
-
-
 }
