@@ -44,6 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array\BubbleSorting.cs" />
+    <Compile Include="Array\ArraySortingFactory.cs" />
+    <Compile Include="Array\IArraySorting.cs" />
     <Compile Include="OneArgument\Abs.cs" />
     <Compile Include="OneArgument\Arccos.cs" />
     <Compile Include="OneArgument\Arcsin.cs" />

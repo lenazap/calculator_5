@@ -51,6 +51,7 @@
             this.button_ln = new System.Windows.Forms.Button();
             this.button_percent = new System.Windows.Forms.Button();
             this.button_arccos = new System.Windows.Forms.Button();
+            this.button_array = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button_plus
@@ -272,12 +273,23 @@
             this.button_arccos.UseVisualStyleBackColor = true;
             this.button_arccos.Click += new System.EventHandler(this.one_button_Click);
             // 
+            // button_array
+            // 
+            this.button_array.Location = new System.Drawing.Point(271, 210);
+            this.button_array.Name = "button_array";
+            this.button_array.Size = new System.Drawing.Size(50, 35);
+            this.button_array.TabIndex = 27;
+            this.button_array.Text = "array";
+            this.button_array.UseVisualStyleBackColor = true;
+            this.button_array.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(380, 282);
+            this.Controls.Add(this.button_array);
             this.Controls.Add(this.button_arccos);
             this.Controls.Add(this.button_percent);
             this.Controls.Add(this.button_ln);
@@ -333,6 +345,7 @@
         private System.Windows.Forms.Button button_ln;
         private System.Windows.Forms.Button button_percent;
         private System.Windows.Forms.Button button_arccos;
+        private System.Windows.Forms.Button button_array;
     }
 }
 
