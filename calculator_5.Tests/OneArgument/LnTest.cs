@@ -8,7 +8,6 @@ namespace calculator_5.Tests.OneArgument
     public class LnTests
     {
         [TestCase(4, 1.395)]
-        [TestCase(1, 0)]
         [TestCase(8, 2.093)]
 
         public void SimpleTest(double first, double expected)

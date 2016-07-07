@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array\ArraySortingTest.cs" />
     <Compile Include="OneArgument\AbsTests.cs" />
     <Compile Include="OneArgument\ArccosTest.cs" />
     <Compile Include="OneArgument\ArcsinTest.cs" />
